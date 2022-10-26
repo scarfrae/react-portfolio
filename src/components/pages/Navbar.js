@@ -10,8 +10,8 @@ import Link from '@mui/material/Link';
 
 const styles = {
   heading: {
-    background: 'black',
-    color: '#e53935',
+    background: '#212121',
+    color: '#fafafa',
   },
 };
 // In Navbar, we can assign a style from an object by using curly braces

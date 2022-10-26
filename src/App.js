@@ -1,5 +1,5 @@
-import Navbar from './components/Navbar';
-import About_me from './components/About_me';
+import Navbar from './components/pages/Navbar';
+import About_me from './components/pages/About_me';
 import {Typography} from '@mui/material/'
 import './App.css';
 
