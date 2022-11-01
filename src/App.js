@@ -1,22 +1,21 @@
-import Navbar from './components/pages/Navbar';
-import About_me from './components/pages/About_me';
-import {Typography} from '@mui/material/'
-import './App.css';
-
-
+import React from "react";
+import PortfolioContainer from "./components/PortfolioContainer";
+import MoonImage from "./images/QuietMoon.jpg"
+import {Container, Box} from "@mui/material";
 
 function App() {
+  // const classes = useStyles();
   return (
-    
-    <Typography className="">
-      <Navbar/>
-      <About_me/>
-    </Typography>
+    <Box sx={{
+      backgroundImage:`url(${MoonImage})`,
+    }}>
+
+    <PortfolioContainer/>
+    </Box>
   );
 }
 
 export default App;
-
 
 
 
