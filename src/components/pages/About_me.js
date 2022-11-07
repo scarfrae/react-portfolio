@@ -1,4 +1,4 @@
-
+import CssBaseline from '@mui/material/CssBaseline';
 import React from 'react';
 import Images from '../../images/Queen.jpg';
 import Box from '@mui/material/Box';
@@ -29,10 +29,10 @@ function About_me() {
   return (
   <React.Fragment>
      {/* <CssBaseline /> */}
-     <Card sx={{ display: 'flex', p: 1 }}>
+     <Card sx={{ display: 'flex', p: 1, background: 'none', height:'100vh'}}>
         <CardMedia
         component="img"
-        sx={{ width: 300 }}
+        sx={{ width: 300, height: 400 }}
         image={Images}
         alt="Profile Picture"
       />

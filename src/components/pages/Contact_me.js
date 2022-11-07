@@ -3,10 +3,11 @@ import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import { TextField, Grid, CardMedia, Button } from '@mui/material';
+import "../../css/style.css"
 
-function Contact_me() {
+export default function Contact_me() {
     return (
-    <React.Fragment>
+    <main className="page">
        {/* <CssBaseline /> */}
        <Card>
         <CardContent>
@@ -31,10 +32,6 @@ function Contact_me() {
         </CardContent>
        </Card>
    
-    </React.Fragment>
+       </main>
     );
-  }
-
-
-
-export default Contact_me;
+}

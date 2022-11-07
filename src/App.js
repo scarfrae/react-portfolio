@@ -2,16 +2,16 @@ import React from "react";
 import PortfolioContainer from "./components/PortfolioContainer";
 import MoonImage from "./images/QuietMoon.jpg"
 import {Container, Box} from "@mui/material";
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+import "./css/style.css"
 
 function App() {
   // const classes = useStyles();
+  const theme = createTheme();
   return (
-    <Box sx={{
-      backgroundImage:`url(${MoonImage})`,
-    }}>
-
-    <PortfolioContainer/>
-    </Box>
+    <div className="page">
+      <PortfolioContainer/>
+    </div>
   );
 }
 

@@ -1,11 +1,13 @@
 import React from "react";
-import Grid from '@mui/material/Grid';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import { Typography, Button } from "@mui/material";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import GetAppIcon from '@mui/icons-material/GetApp';
 function Project (props){
+  
     return (
       <Card
         sx={{ background: "#212121", height: '100%', display: 'flex', flexDirection: 'column' }}
@@ -24,13 +26,12 @@ function Project (props){
           <p> {props.heading}</p>
           </Typography>
           <Typography>
-            This is a media card. You can use this section to describe the
-            content.
+            {props.description}
           </Typography>
         </CardContent>
         <CardActions>
-          <Button size="small">{props.githubURL}</Button>
-          <Button size="small">Edit</Button>
+          <Button size="small" href={props.githubURL} target="_blank"><GitHubIcon/></Button>
+          <Button size="small" href={props.deployedLink} target="_blank"><GetAppIcon/></Button>
         </CardActions>
       </Card>
   

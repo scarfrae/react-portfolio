@@ -4,6 +4,7 @@ import Contact from './pages/Contact_me';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Navbar from './Navbar';
+import '../css/style.css'
 
 export default function PortfolioContainer() {
   //updates state to tell react which page we're on 
