@@ -8,28 +8,29 @@ import "../../css/style.css"
 export default function Contact_me() {
     return (
     <main className="page">
+          {/* <main className="page"></main> */}
        {/* <CssBaseline /> */}
        <Card>
-        <CardContent>
-        <Grid container spacing={1}>
-            <Grid xs={12} sm={6} item>
-                <TextField label="First Name" placeholder="Enter first name" variant='outlined' fullWidth required/>
-            </Grid>
-            <Grid xs={12} sm={6} item>
-                <TextField label="Last Name" placeholder="Enter last name" variant='outlined' fullWidth required/>
-            </Grid>
-            <Grid xs={12} item>
-                <TextField type="email" label="Email" placeholder="Enter email" variant='outlined' fullWidth required/>
-            </Grid>
-            <Grid xs={12} item>
-                <TextField label="Message" multiline rows={5} placeholder="Please enter message here" variant='outlined' fullWidth required/>
-            </Grid>
-            <Grid xs={12} item>
-                <Button variant="contained">Submit</Button>
-            </Grid>
+            <CardContent>
+                <Grid container spacing={1}>
+                    <Grid xs={12} sm={6} item>
+                        <TextField label="First Name" placeholder="Enter first name" variant='outlined' fullWidth required/>
+                    </Grid>
+                    <Grid xs={12} sm={6} item>
+                        <TextField label="Last Name" placeholder="Enter last name" variant='outlined' fullWidth required/>
+                    </Grid>
+                    <Grid xs={12} item>
+                        <TextField type="email" label="Email" placeholder="Enter email" variant='outlined' fullWidth required/>
+                    </Grid>
+                    <Grid xs={12} item>
+                        <TextField label="Message" multiline rows={5} placeholder="Please enter message here" variant='outlined' fullWidth required/>
+                    </Grid>
+                    <Grid xs={12} item>
+                        <Button variant="contained">Submit</Button>
+                    </Grid>
 
-        </Grid>
-        </CardContent>
+                </Grid>
+            </CardContent>
        </Card>
    
        </main>

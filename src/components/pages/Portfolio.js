@@ -24,7 +24,7 @@ export default function Portfolio() {
   return (
     <div>
       <main>
-        <Container sx={{ py: 6 }} maxWidth="lg">
+        <Container sx={{ py: 6}} maxWidth="lg" >
           {/* End hero unit */}
           <Grid container spacing={4}>
                 {Users.map((e) => (

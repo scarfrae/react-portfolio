@@ -1,4 +1,3 @@
-import CssBaseline from '@mui/material/CssBaseline';
 import React from 'react';
 import Images from '../../images/Queen.jpg';
 import Box from '@mui/material/Box';
@@ -32,7 +31,7 @@ function About_me() {
      <Card sx={{ display: 'flex', p: 1, background: 'none', height:'100vh'}}>
         <CardMedia
         component="img"
-        sx={{ width: 300, height: 400 }}
+        sx={{ width: '40vw', height: '40vh' }}
         image={Images}
         alt="Profile Picture"
       />
