@@ -19,7 +19,7 @@ function Project (props){
             pt: '10%',
           }}
           image= {props.picture}
-          alt="random"
+          alt="Project Picture"
         />
         <CardContent sx={{ flexGrow: 1, color: "white" }}>
           <Typography gutterBottom variant="h5" component="h2">

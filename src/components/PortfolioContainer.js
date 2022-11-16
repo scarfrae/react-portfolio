@@ -4,7 +4,21 @@ import Contact from './pages/Contact_me';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Navbar from './Navbar';
+import {Container, Box, Typography, Link} from "@mui/material";
 import '../css/style.css'
+
+function Copyright() {
+  return (
+    <Typography variant="body2" color="text.secondary" align="center">
+      {'Copyright © '}
+      <Link color="inherit" href="https://mui.com/">
+        ReactResume
+      </Link>{' '}
+      {new Date().getFullYear()}
+      {'.'}
+    </Typography>
+  );
+}
 
 export default function PortfolioContainer() {
   //updates state to tell react which page we're on 
@@ -34,6 +48,14 @@ export default function PortfolioContainer() {
         <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
         {/* Here we are calling the renderPage method which will return a component  */}
         {renderPage()}
+               {/* Footer */}
+    <Box sx={{ background:'	rgb(211,211,211, 0.2)', p: 2 }} component="footer">
+    <Typography variant="h6" align="center" gutterBottom>
+      Hope you have a wonderful day!
+    </Typography>
+    <Copyright />
+  </Box>
+  {/* End footer */}
       </div>
   );
 }

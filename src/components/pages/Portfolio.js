@@ -7,18 +7,7 @@ import Link from '@mui/material/Link';
 import Project from '../Project';
 import Users from '../../data/portfolioData';
 
-function Copyright() {
-  return (
-    <Typography variant="body2" color="text.secondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" href="https://mui.com/">
-        ReactResume
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
-  );
-}
+
 
 export default function Portfolio() {
   return (
@@ -35,14 +24,6 @@ export default function Portfolio() {
           </Grid>
         </Container>
       </main>
-      {/* Footer */}
-      <Box sx={{ bgcolor: 'background', p: 6 }} component="footer">
-        <Typography variant="h6" align="center" gutterBottom>
-          Hope you have a wonderful day!
-        </Typography>
-        <Copyright />
-      </Box>
-      {/* End footer */}
     </div>
   );
 }
