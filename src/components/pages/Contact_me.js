@@ -5,6 +5,10 @@ import CardContent from '@mui/material/CardContent';
 import { TextField, Grid, CardMedia, Button, Stack} from '@mui/material';
 import "../../css/style.css"
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import GetAppIcon from '@mui/icons-material/GetApp';
+
+
 
 export default function Contact_me() {
     return (
@@ -35,17 +39,18 @@ export default function Contact_me() {
                         </CardContent>
                     </Card>
                     <Grid container sx={{justifyContent: 'center', p: 2}}>
-                        <Grid xs={3} sm={3} md={3} lg={3} item >
+                        <Grid xs={12} sm={6} md={6} lg={3} item >
                             <Card sx={{background: '#212121', borderRadius: '12px'}}>
                           
 
                                 <Stack
                                         direction={{ xs: 'column', sm: 'row' }}
-                                        spacing={{ xs: 1, sm: 2, md: 4 }}
+                                        spacing={{ xs: 1, sm: 1, md: 4 }}
+                                        sx={{justifyContent: 'center'}}
                                         >
-                                        <Button sx={{color: 'blue', backgroundColor: 'white'}} size="large" href="https://www.linkedin.com/in/sterling-carfrae-a2a8151a5/" target="_blank"><LinkedInIcon/></Button>
-                                        <Button sx={{color: 'blue', backgroundColor: 'white'}} size="large" href="https://www.linkedin.com/in/sterling-carfrae-a2a8151a5/" target="_blank"><LinkedInIcon/></Button>
-                                        <Button sx={{color: 'blue', backgroundColor: 'white'}} size="large" href="https://www.linkedin.com/in/sterling-carfrae-a2a8151a5/" target="_blank"><LinkedInIcon/></Button>
+                                        <Button sx={{color: 'blue', backgroundColor: 'white'}} size="medium" href="https://www.linkedin.com/in/sterling-carfrae-a2a8151a5/" target="_blank"><LinkedInIcon/>LinkedIn</Button>
+                                        <Button sx={{color: 'blue', backgroundColor: 'white'}} size="medium" href="https://github.com/scarfrae" target="_blank"><GitHubIcon/>Github</Button>
+                                        <Button sx={{color: 'blue', backgroundColor: 'white'}} size="medium" href="https://dashboard.heroku.com/apps" target="_blank"><GetAppIcon/>DeployedApps</Button>
                                 </Stack>
                                 
                                    

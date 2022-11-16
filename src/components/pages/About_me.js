@@ -9,7 +9,7 @@ import CardMedia from '@mui/material/CardMedia';
 const styles = {
     card: {
       margin: 20,
-      background: '#212121',
+      background: 'rgb(33, 33, 33, 0.9)',
       color: '#fafafa',
       borderRadius: '12px'
     },

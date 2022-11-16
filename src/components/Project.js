@@ -10,7 +10,7 @@ function Project (props){
   
     return (
       <Card
-        sx={{ background: "#212121", height: '100%', display: 'flex', flexDirection: 'column' }}
+        sx={{ background: "rgb(33, 33, 33, 0.9)", height: '100%', display: 'flex', flexDirection: 'column' }}
       >
         <CardMedia
           component="img"

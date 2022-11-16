@@ -10,7 +10,8 @@ import '../css/style.css'
 
 const styles = {
   heading: {
-    background: '#212121',
+    // background: '#212121',
+       background: 'rgb(33, 33, 33, 0.8)',
     color: '#fafafa',
    
   },

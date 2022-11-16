@@ -5,7 +5,7 @@ import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Navbar from './Navbar';
 import {Container, Box, Typography, Link} from "@mui/material";
-import '../css/style.css'
+import '../css/style.css';
 
 function Copyright() {
   return (
@@ -50,11 +50,11 @@ export default function PortfolioContainer() {
         {renderPage()}
                {/* Footer */}
     <Box sx={{ background:'	rgb(211,211,211, 0.2)', p: 2 }} component="footer">
-    <Typography variant="h6" align="center" gutterBottom>
-      Hope you have a wonderful day!
-    </Typography>
-    <Copyright />
-  </Box>
+        <Typography variant="h6" align="center" gutterBottom>
+          Hope you have a wonderful day!
+        </Typography>
+      <Copyright />
+    </Box>
   {/* End footer */}
       </div>
   );

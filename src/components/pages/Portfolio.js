@@ -15,7 +15,7 @@ export default function Portfolio() {
       <main>
         <Container sx={{ py: 6}} maxWidth="lg" >
           {/* End hero unit */}
-          <Grid container spacing={4}>
+          <Grid container spacing={4} sx={{ justifyContent: 'center'}}>
                 {Users.map((e) => (
                     <Grid item key={e} xs={12} sm={6} md={4}>
                         <Project picture={e.picture} heading={e.heading} githubURL={e.githubURL} description={e.description} deployedLink={e.deployedLink} />
