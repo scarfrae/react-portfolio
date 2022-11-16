@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/react-portfolio/static/js/main.117a9f38.js",
+    "main.css": "/react-portfolio/static/css/main.4cfc491d.css",
+    "main.js": "/react-portfolio/static/js/main.b30fa6da.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/logo.svg": "/react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/QuietMoon.jpg": "/react-portfolio/static/media/QuietMoon.b2c5770afa3ce55aca32.jpg",
+    "static/media/Profile.png": "/react-portfolio/static/media/Profile.7e34625b739f0dc5f3ce.png",
+    "static/media/Sterling_Carfrae_Resume.pdf": "/react-portfolio/static/media/Sterling_Carfrae_Resume.93badf2ef3d8abba1b2c.pdf",
     "index.html": "/react-portfolio/index.html",
-    "main.073c9b0a.css.map": "/react-portfolio/static/css/main.073c9b0a.css.map",
-    "main.117a9f38.js.map": "/react-portfolio/static/js/main.117a9f38.js.map",
+    "main.4cfc491d.css.map": "/react-portfolio/static/css/main.4cfc491d.css.map",
+    "main.b30fa6da.js.map": "/react-portfolio/static/js/main.b30fa6da.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.117a9f38.js"
+    "static/css/main.4cfc491d.css",
+    "static/js/main.b30fa6da.js"
   ]
 }
