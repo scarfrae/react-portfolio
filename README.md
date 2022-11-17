@@ -1,12 +1,12 @@
 # *** Progressive-Web-Applications- ***
-[GitHub Repository]()
+[GitHub Repository](https://github.com/scarfrae/react-portfolio)
 
-[Deployed Application]()
+[Deployed Application](https://scarfrae.github.io/react-portfolio/)
 
 <!-- deployed application -->
 ## **Description** 📚
 
-*Progressive-Web-Applications- * is a text editor where a user can create notes or code snippets with or without an internet connection. 
+*react-portfolio * is my project portfolio including a about me page, a portfolio page, a contact me page, and a resume page. It was created via react.
 <hr>
 
 ## **Table of Contents** 📄
@@ -23,15 +23,16 @@
 
 ## **Installation** ⚙️
 
-Visit my [repository](https://github.com/scarfrae/Progressive-Web-Applications-) to reference: any materials and my process in developing the web page. Visit my [Deployed Application](https://dashboard.heroku.com/apps/dry-peak-79816) to use the webpage.
+Visit my [repository](https://github.com/scarfrae/react-portfolio) to reference: any materials and my process in developing the web page. Visit my [Deployed Application](https://scarfrae.github.io/react-portfolio/) to use the webpage.
 <hr>
 
 ### **Usage** 💻
-* Users can write code and create notes on this text editor
-![Screenshot of Text Editor Online](./public/assets/Text_Editor_Online.png)
-* They can view their notes and create new ones in offline mode
-![Screenshot of Text Editor Offline](./public/assets/Offline_Mode_Text_Editor.png)
-* Once online their offline notes will be displayed
+* Users can interact with each page via the navbar at the top
+![Screenshot of Navbar](./src/images/Navbar.png)
+* They can view my resume by pressing it (it will download onto their computer)
+![Screenshot of Resume Button](./src/images/Button.png)
+* They can view my project's githubs or deployed pages by pressing the respective buttons at the bottom left corner of each card
+![Screenshot of Project Button Usage](./src/images/ProjectButton.png)
 
 <hr>
 
@@ -53,13 +54,13 @@ All testing was done by the developing team.
 <hr>
 
 ### **Technology** 💡
-* Progressive web applications
-* webpack
-* heroku
-* javascript
-* html
-* css
-* ESLint
+* React
+* Github Pages
+* Javascript
+* HTML
+* CSS
+* NodeJs
+* Vscode
 <hr>
 
 ### **Contact** ☎
