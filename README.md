@@ -61,6 +61,9 @@ All testing was done by the developing team.
 * CSS
 * NodeJs
 * Vscode
+* [Material UI](https://mui.com/)
+* [npm](https://www.npmjs.com/)
+
 <hr>
 
 ### **Contact** ☎
