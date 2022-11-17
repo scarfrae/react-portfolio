@@ -6,7 +6,7 @@ import { TextField, Grid, CardMedia, Button, Stack} from '@mui/material';
 import "../../css/style.css"
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import GetAppIcon from '@mui/icons-material/GetApp';
+import FacebookIcon from '@mui/icons-material/Facebook';
 
 
 
@@ -49,7 +49,7 @@ export default function Contact_me() {
                                         <Button sx={{color: 'blue', backgroundColor: 'white'}} size="medium" href="https://www.linkedin.com/in/sterling-carfrae-a2a8151a5/" target="_blank"><LinkedInIcon/>LinkedIn</Button>
                                         <Button sx={{color: 'blue', backgroundColor: 'white'}} size="medium" href="https://github.com/scarfrae" target="_blank"><GitHubIcon/>Github</Button>
                                         {/* Last button is linked to social media i.e facebook, stackoverflow */}
-                                        <Button sx={{color: 'blue', backgroundColor: 'white'}} size="medium" href="https://dashboard.heroku.com/apps" target="_blank"><GetAppIcon/>DeployedApps</Button>
+                                        <Button sx={{color: 'blue', backgroundColor: 'white'}} size="medium" href="https://www.facebook.com/sterling.carfrae" target="_blank"><FacebookIcon/>Social Media</Button>
                                 </Stack>                        
                             </Card>
                         </Grid>

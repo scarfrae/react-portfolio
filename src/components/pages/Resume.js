@@ -24,7 +24,7 @@ function Resume() {
                         </Card>
                     </Grid>
                 </Grid>
-                <Grid container sx={{justifyContent: 'center'}}>
+                <Grid container sx={{justifyContent: 'center', p: 2}}>
                     <Grid item xs={12} md={4} lg={4}> 
                         <Card sx={{background: "#212121", color: 'white', padding: 1, borderRadius: '12px'}}>
                             <List sx={{ width: '100%', m: 2}}>

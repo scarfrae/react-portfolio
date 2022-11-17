@@ -8,21 +8,20 @@ import CardMedia from '@mui/material/CardMedia';
 
 const styles = {
     card: {
-      margin: 20,
+      margin: 10,
       background: 'rgb(33, 33, 33, 0.9)',
       color: '#fafafa',
       borderRadius: '12px'
     },
     heading: {
-    //   background: '#3f51b5',
-    //   minHeight: 50,
       lineHeight: 3.5,
-    fontSize: '1.2rem',
+    fontSize: '1.4rem',
       color: '#fafafa',
       padding: '0 20px',
     },
     content: {
       padding: 20,
+      fontSize: '1.4rem',
     },
   };
 function About_me() {
@@ -39,7 +38,7 @@ function About_me() {
       <Box sx={{ display: 'flex', flexDirection: 'column'}}>
         <CardContent sx={{ flex: '1 0 auto'}}>
           <div style={styles.card}>
-            <div style={styles.heading}>About Me</div>
+            <div style={styles.heading}><h2>About Me</h2></div>
               <div style={styles.content}>
                 I am a full stack developer with knowledge in HTML, CSS, Javascript, node, mysql, react, mongoose,etc. Additionally I am in my third year of college studying sustainable energy engineering. In my off time I like writing music, stories, designing product ideas, playing strategy games with my family and running. I bring the same curious determined nature to my coding projects. Other projects I have worked on include, a solar panel tracking system that uses...
               </div>
